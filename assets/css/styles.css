@@ -1,22 +1,22 @@
-body{
-background-color: #373A3C;
+body {
+    background-color: #373A3C;
 }
 
-.navbar-fixed-top{
+.navbar-fixed-top {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 100;
-    
+
 }
 
-.carousel-inner img{
+.carousel-inner img {
     object-fit: cover;
     height: 100vh;
 }
 
-.invertirImagen{
+.invertirImagen {
     transform: rotate(180deg);
 }
 
@@ -40,7 +40,7 @@ background-color: #373A3C;
 }
 
 
-.fondoImagenes{
+.fondoImagenes {
     height: 30px;
     filter: invert(100%);
     background-color: #ff0000;
@@ -52,11 +52,10 @@ background-color: #373A3C;
     color: white;
 }
 
-.margenInferior{
+.margenInferior {
     margin-bottom: 100px;
 }
 
-.sinborde{
+.sinborde {
     border: none;
 }
-
