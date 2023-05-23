@@ -3,10 +3,12 @@ body{
 background-color: #373A3C;
 }
 
-.navbarCustomizada{
-    position: absolute;
-    padding: 10px;
-    z-index: 1;
+.navbar-fixed-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
     
 }
 
@@ -15,12 +17,28 @@ background-color: #373A3C;
     height: 100vh;
 }
 
-section{
+.personalizado {
     background-color: #373A3C;
     text-align: center;
-    
+    color: white;
 }
-section h2{
-    color: white
-    
+
+.personalizado h2 {
+    color: white;
+}
+
+.personalizado .card {
+    background-color: #373A3C;
+    border-color: white;
+}
+
+.personalizado .card-text {
+    color: white;
+}
+
+
+.fondoImagenes{
+    height: 30px;
+    filter: invert(100%);
+    background-color: #ff0000;
 }
