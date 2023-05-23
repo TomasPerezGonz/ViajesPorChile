@@ -1,6 +1,6 @@
-html{
+body{
 
-background-color: black;
+background-color: #373A3C;
 }
 
 .navbarCustomizada{
@@ -13,4 +13,14 @@ background-color: black;
 .carousel-inner img{
     object-fit: cover;
     height: 100vh;
+}
+
+section{
+    background-color: #373A3C;
+    text-align: center;
+    
+}
+section h2{
+    color: white
+    
 }
