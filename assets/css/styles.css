@@ -1,5 +1,4 @@
 body{
-
 background-color: #373A3C;
 }
 
@@ -15,6 +14,10 @@ background-color: #373A3C;
 .carousel-inner img{
     object-fit: cover;
     height: 100vh;
+}
+
+.invertirImagen{
+    transform: rotate(180deg);
 }
 
 .personalizado {
@@ -42,3 +45,18 @@ background-color: #373A3C;
     filter: invert(100%);
     background-color: #ff0000;
 }
+
+.personalizadoDos {
+    background-color: #373A3C;
+    text-align: center;
+    color: white;
+}
+
+.margenInferior{
+    margin-bottom: 100px;
+}
+
+.sinborde{
+    border: none;
+}
+
