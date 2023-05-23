@@ -1,12 +1,13 @@
-.containerCarousel{
-    position: relative;
-    height: 100vh;
+html{
+
+background-color: black;
 }
 
 .navbarCustomizada{
     position: absolute;
     padding: 10px;
     z-index: 1;
+    
 }
 
 .carousel-inner img{
