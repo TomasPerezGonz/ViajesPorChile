@@ -1,5 +1,6 @@
 body {
     background-color: #373A3C;
+    font-family: 'Mochiy Pop One', sans-serif;
 }
 
 .navbar-fixed-top {
@@ -60,4 +61,9 @@ body {
 
 .textosubmit{
     color: white;
+}
+
+.footerformat{
+    background-color: #00ffff;
+      
 }
