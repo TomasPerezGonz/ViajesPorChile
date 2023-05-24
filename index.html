@@ -12,6 +12,7 @@
     <!--Link CSS-->
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+<body>
 <header>
     <!--Barra de Navegación Fija Inicio-->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top bg-transparent">
@@ -36,7 +37,7 @@
                         <a class="nav-link" href="#destacados">Destacado</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
 
@@ -69,11 +70,9 @@
     <!--Carousel 1 Fin-->
 </header>
 <!--Sección Quienes Somos Inicio-->
-<section class="personalizado margenInferior">
-    <br>
-    <h2 id="quienesSomos">¿Quienes somos?</h2>
-    <br>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+<section class="personalizado margenInferior mt-5 mb-5">
+    <h2 id="quienesSomos">¿QUIENES SOMOS?</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
         <div class="col d-flex">
             <div class="card sinborde">
                 <img src="assets/img/plane-solid.svg" class="card-img-top fondoImagenes" alt="Imagen de avión">
@@ -89,10 +88,7 @@
                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea possimus saepe maxime
                     repellat quos, dolores illo dolorum enim molestiae eveniet libero vitae aspernatur atque blanditiis
                     voluptatum nesciunt laborum qui optio?</p>
-                <br>
-                <br>
-                <br>
-                <img src="assets/img/mountain-solid-inverted.svg" class="card-img-top fondoImagenes invertirImagen"
+                    <img src="assets/img/mountain-solid-inverted.svg" class="card-img-top fondoImagenes invertirImagen"
                     alt="Imagen de Montaña">
 
             </div>
@@ -112,8 +108,8 @@
 </section>
 <!--Sección Quienes somos Final-->
 <!--Sección Destacados Inicio-->
-<section class="personalizadoDos">
-    <h2 id="destacados">DESTACADOS</h2>
+<section class="personalizado">
+    <h2 id="destacados" class="mb-5">DESTACADOS</h2>
 </section>
 <!--Sección Destacados Final-->
 <!--Carousel 2 Inicio-->
@@ -169,12 +165,49 @@
     </button>
 </div>
 <!--Carousel 2 Final-->
+<!--Form de Contacto Inicio-->
+<div class="container mt-5 textosubmit">
+    <h2 id="contacto" class="personalizado">CONTACTO</h2>
+<form>
+    <!-- Name input -->
+    <div class="form-outline mb-4">
+        <label class="form-label" for="form4Example1">Nombre</label>
+        <input type="text" id="form4Example1" class="form-control" />      
+    </div>
+  
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+        <label class="form-label" for="form4Example2">Correo Electrónico</label>
+        <input type="email" id="form4Example2" class="form-control" />      
+    </div>
+  
+    <!-- Message input -->
+    <div class="form-outline mb-4">
+        <label class="form-label" for="form4Example3">Mensaje</label>
+        <textarea class="form-control" id="form4Example3" rows="4"></textarea>      
+    </div>
+  
+    <!-- Checkbox -->
+    <div class="form-check d-flex justify-content-center mb-4">
+      <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Recibe una copia de tu correo"/>
+      <label class="form-check-label" for="form4Example4">
+        Envíame una copia
+      </label>
+    </div>
+  
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4 bc"data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="¡Contactanos!">Enviar</button>
+    
+  </form>
+</div>
+<!--Form de Contacto Final-->
 
-<body>
     <!--Script Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+    <!---Script para JS-->
+    <script src="assets/js/index.js"></script>
 </body>
 
 </html>

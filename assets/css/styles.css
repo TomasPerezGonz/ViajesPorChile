@@ -21,7 +21,6 @@ body {
 }
 
 .personalizado {
-    background-color: #373A3C;
     text-align: center;
     color: white;
 }
@@ -47,7 +46,6 @@ body {
 }
 
 .personalizadoDos {
-    background-color: #373A3C;
     text-align: center;
     color: white;
 }
@@ -58,4 +56,8 @@ body {
 
 .sinborde {
     border: none;
+}
+
+.textosubmit{
+    color: white;
 }
